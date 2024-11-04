@@ -1,0 +1,71 @@
+/* src/styles/styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: wheat;
+    padding: 1rem 0;
+  }
+  
+  .header__logo h1 {
+    font-family: "Lucida Handwriting";
+    font-size: 3rem;
+  }
+  
+  .header__menu ul {
+    list-style-type: none;
+  }
+  
+  .header__menu li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .header__right__social a {
+    margin-right: 0.5rem;
+    color: wheat;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #222;
+    color: wheat;
+    padding: 2rem 0;
+  }
+  
+  .footer__address ul {
+    list-style-type: none;
+  }
+  
+  .footer__social__links a {
+    margin-right: 0.5rem;
+    color: wheat;
+  }
+  
+  .footer__newslatter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .footer__newslatter button {
+    background-color: wheat;
+    color: #222;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styles as needed */
+  
